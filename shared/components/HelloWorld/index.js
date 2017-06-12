@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from './HelloWorld.css'
 function HelloWorld() {
   return (
-    <div>
+    <div className="helloWorld">
       hello, world!
     </div>
   )
