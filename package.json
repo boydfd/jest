@@ -33,6 +33,7 @@
     "promise": "7.1.1",
     "react-dev-utils": "^3.0.0",
     "react-error-overlay": "^1.0.7",
+    "react-test-renderer": "^15.5.4",
     "style-loader": "0.17.0",
     "sw-precache-webpack-plugin": "0.9.1",
     "url-loader": "0.5.8",
@@ -60,7 +61,10 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.js?(x)",
       "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^@shared(.*)\"?$": "<rootDir>/shared/$1"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
