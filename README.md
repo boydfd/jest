@@ -84,10 +84,10 @@ it('second test with es6 syntax', () => {
 })
 ```
 
-2. add es6.spec.js file
+2. add es6.js file
 
 ```
-// src/es6.spec.js
+// src/es6.js
 
 export const arrowFunction = () => {
   return 'arrowFunction'
@@ -103,11 +103,11 @@ export const arrowFunction = () => {
 
 ```
 
-###add es6 syntax support
+### add es6 syntax support
 
 1. add babel es2015 (this package makes es6 syntax available)
 
-`npm install --save-dev babel-preset-es2015`
+`yarn add --dev babel-preset-es2015`
 
 2. add es2015 configuration in package.json
 
@@ -336,6 +336,6 @@ Ran all test suites.
 
 ```
 
-###Next?
+### Next?
 test assert with Enzyme is comming soon.
 
